@@ -1,29 +1,9 @@
 fileFormatVersion: 2
-guid: 947cf69014076f24c8af437f4b9f3f13
+guid: 14bc9f3e40942f841959068d7144aa36
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.Barrel
-    second: {fileID: 2100000, guid: ccb1dd2d1d4edbd42aa3afc842a939b1, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.Barrel1
-    second: {fileID: 2100000, guid: 32a170b30da0b364b9022f08f690bdcc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.Tap
-    second: {fileID: 2100000, guid: 9a6ca9632b3294a4387ceaa5ff91ecd2, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.Valve
-    second: {fileID: 2100000, guid: e84882f3c50d6b44f987b3e236d0e5ef, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
