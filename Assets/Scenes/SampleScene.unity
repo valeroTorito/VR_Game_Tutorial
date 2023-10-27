@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17560175, g: 0.21972728, b: 0.3020529, a: 1}
+  m_IndirectSpecularColor: {r: 0.17560223, g: 0.21972781, b: 0.30205387, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5619,13 +5619,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 231748304}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.033, y: 0.17, z: 0}
+  m_LocalRotation: {x: -0.2588186, y: -0, z: -0, w: 0.965926}
+  m_LocalPosition: {x: -0.0055, y: 0.16999996, z: -0.0365}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 131840344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -30, y: 0, z: 0}
 --- !u!1001 &232281974
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6172,13 +6172,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 347007963}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.117, y: 0.228, z: 0}
+  m_LocalRotation: {x: -1, y: 0, z: 0, w: 0}
+  m_LocalPosition: {x: 0.116999984, y: 0.22799999, z: -0.0542}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 428966958}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -180, y: 0, z: 0}
 --- !u!1 &352150163
 GameObject:
   m_ObjectHideFlags: 0
@@ -11921,7 +11921,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -7374733323251553461, guid: c348712bda248c246b8c49b3db54643f,
+    m_Reference: {fileID: 1010738217276881514, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   m_RightHandSnapTurnAction:
     m_UseReference: 1
@@ -11934,7 +11934,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -8525429354371678379, guid: c348712bda248c246b8c49b3db54643f,
+    m_Reference: {fileID: -6493913391331992944, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
 --- !u!114 &672925182
 MonoBehaviour:
@@ -11951,7 +11951,7 @@ MonoBehaviour:
   m_System: {fileID: 672925180}
   m_TurnSpeed: 60
   m_LeftHandTurnAction:
-    m_UseReference: 0
+    m_UseReference: 1
     m_Action:
       m_Name: Left Hand Turn
       m_Type: 0
@@ -11961,7 +11961,8 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 0}
+    m_Reference: {fileID: 1010738217276881514, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
   m_RightHandTurnAction:
     m_UseReference: 1
     m_Action:
@@ -12012,6 +12013,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1243548348}
     m_Modifications:
+    - target: {fileID: 2761784063978902503, guid: c1800acf6366418a9b5f610249000331,
+        type: 3}
+      propertyPath: m_PlayHapticsOnHoverExited
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2761784063978902503, guid: c1800acf6366418a9b5f610249000331,
+        type: 3}
+      propertyPath: m_PlayHapticsOnSelectExited
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2761784063978902503, guid: c1800acf6366418a9b5f610249000331,
+        type: 3}
+      propertyPath: m_AllowHoverHapticsWhileSelecting
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2761784063978902505, guid: c1800acf6366418a9b5f610249000331,
         type: 3}
       propertyPath: m_Reticle
@@ -24041,6 +24057,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1968807361}
     m_Modifications:
+    - target: {fileID: 2761784063978902503, guid: c1800acf6366418a9b5f610249000331,
+        type: 3}
+      propertyPath: m_HapticHoverEnterDuration
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2761784063978902503, guid: c1800acf6366418a9b5f610249000331,
+        type: 3}
+      propertyPath: m_PlayHapticsOnHoverExited
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2761784063978902503, guid: c1800acf6366418a9b5f610249000331,
+        type: 3}
+      propertyPath: m_HapticSelectEnterDuration
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2761784063978902503, guid: c1800acf6366418a9b5f610249000331,
+        type: 3}
+      propertyPath: m_PlayHapticsOnSelectExited
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2761784063978902503, guid: c1800acf6366418a9b5f610249000331,
+        type: 3}
+      propertyPath: m_AllowHoverHapticsWhileSelecting
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2761784063978902505, guid: c1800acf6366418a9b5f610249000331,
         type: 3}
       propertyPath: m_Reticle
@@ -24663,13 +24704,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1789841563}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.599, y: 0.06, z: -0.492}
+  m_LocalRotation: {x: -0, y: -0.9659259, z: -0.258819, w: 0}
+  m_LocalPosition: {x: 0.599, y: 0.060000002, z: -0.4920001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 804462032}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -30, y: -180, z: 0}
 --- !u!1001 &1894985821
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25672,13 +25713,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2097302148}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.00554}
+  m_LocalRotation: {x: 0.42261827, y: 0, z: 0, w: 0.9063079}
+  m_LocalPosition: {x: 0, y: 0, z: 0.00484}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1894985822}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
 --- !u!1001 &2113736858
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25741,6 +25782,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: XR Device Simulator
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
