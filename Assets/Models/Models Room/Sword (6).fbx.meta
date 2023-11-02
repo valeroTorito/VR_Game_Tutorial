@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fd6c31421bc33ff43b76de9529623347
+guid: f8f3ed6ded9d9e348a91041e77646aa0
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,18 +7,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material_Shield_0
-    second: {fileID: 2100000, guid: c5ddc20c7d861604194e4866bf384ffb, type: 2}
+      name: Material_Sword_1
+    second: {fileID: 2100000, guid: d983d9b70fdcea442a3cc279bb1c7779, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material_Shield_1
-    second: {fileID: 2100000, guid: ccc358d7ca8d7604b99ca44d7af309cc, type: 2}
+      name: Material_Sword_2
+    second: {fileID: 2100000, guid: c0aec087127261541a3d246e253f3b5d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material_Shield_2
-    second: {fileID: 2100000, guid: f44487e3a250ce94096440111732e792, type: 2}
+      name: Material_Sword_3
+    second: {fileID: 2100000, guid: 4bbd0917d8ba6d041b4f34f24d4c1a6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_Sword_4
+    second: {fileID: 2100000, guid: b290029d76216ad41ba4b8e3e0df1df0, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

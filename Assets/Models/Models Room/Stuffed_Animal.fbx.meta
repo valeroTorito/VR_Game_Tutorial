@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fd6c31421bc33ff43b76de9529623347
+guid: 8072e9ced9a7d0a429823de6e5287d88
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,18 +7,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material_Shield_0
-    second: {fileID: 2100000, guid: c5ddc20c7d861604194e4866bf384ffb, type: 2}
+      name: Material_StuffedAnimal_1
+    second: {fileID: 2100000, guid: 334c7cd3860ec884cb527c50e2bc4b5e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material_Shield_1
-    second: {fileID: 2100000, guid: ccc358d7ca8d7604b99ca44d7af309cc, type: 2}
+      name: Material_StuffedAnimal_2
+    second: {fileID: 2100000, guid: 6172590506495a04f836ac93d0800f77, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material_Shield_2
-    second: {fileID: 2100000, guid: f44487e3a250ce94096440111732e792, type: 2}
+      name: Material_StuffedAnimal_3
+    second: {fileID: 2100000, guid: 1b2f40729bf1c3342ad11efb1bd4152c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

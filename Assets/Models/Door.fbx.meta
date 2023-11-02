@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fd6c31421bc33ff43b76de9529623347
+guid: effec473dedf08d4fa1edcf8c9d98e93
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,18 +7,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material_Shield_0
-    second: {fileID: 2100000, guid: c5ddc20c7d861604194e4866bf384ffb, type: 2}
+      name: Material_Corner
+    second: {fileID: 2100000, guid: b0ce626a7f5880e45b236ea6d34dc60c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material_Shield_1
-    second: {fileID: 2100000, guid: ccc358d7ca8d7604b99ca44d7af309cc, type: 2}
+      name: Material_DoorHandle
+    second: {fileID: 2100000, guid: a419770e1cbf04c4e9e813886ea8031a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material_Shield_2
-    second: {fileID: 2100000, guid: f44487e3a250ce94096440111732e792, type: 2}
+      name: Material_Door_1
+    second: {fileID: 2100000, guid: b4fe6101b86a7a144a129e9e92634c78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_Rivet
+    second: {fileID: 2100000, guid: 3f73ac33d8f3bb145b4c281677aee27e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
