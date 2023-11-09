@@ -1,34 +1,9 @@
 fileFormatVersion: 2
-guid: 0f31051989af352469027f119f844377
+guid: a954ae756f43973489f75de37b8e59b7
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material_Chest
-    second: {fileID: 2100000, guid: e3f72b9b4e27b99458808d730c6003a5, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material_Chest_1
-    second: {fileID: 2100000, guid: 1d30b4a5b043d964999978b70bfbf2d8, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material_Chest_2
-    second: {fileID: 2100000, guid: b523a8a80927b224299ba215fbec2f2c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material_Chest_3
-    second: {fileID: 2100000, guid: b8a85cf2c5ef95a4ab38a1141d22662a, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material_Chest_4
-    second: {fileID: 2100000, guid: 5c34cbbbd8f4efd46985d08ed4bc1516, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
