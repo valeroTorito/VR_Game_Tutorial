@@ -17126,7 +17126,7 @@ Light:
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_ColorTemperature: 5278
+  m_ColorTemperature: 5898
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
@@ -42533,17 +42533,17 @@ ParticleSystem:
         - serializedVersion: 3
           time: 0
           value: 1
-          inSlope: 0
-          outSlope: 0
+          inSlope: -2
+          outSlope: -2
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.93080646
+          time: 1
           value: 0
-          inSlope: -2
-          outSlope: -2
+          inSlope: 0
+          outSlope: 0
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
@@ -46310,7 +46310,7 @@ Transform:
   m_GameObject: {fileID: 1288378045}
   serializedVersion: 2
   m_LocalRotation: {x: -0.70710677, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 2.985, y: 0.132, z: 9.488}
+  m_LocalPosition: {x: 3.035, y: 0.132, z: 9.509}
   m_LocalScale: {x: 0.3593326, y: 0.2542853, z: 0.3593326}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -56753,17 +56753,17 @@ ParticleSystem:
         - serializedVersion: 3
           time: 0
           value: 1
-          inSlope: 0
-          outSlope: 0
+          inSlope: -2
+          outSlope: -2
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.93080646
-          value: 0
-          inSlope: -2
-          outSlope: -2
+          time: 1
+          value: 0.1543274
+          inSlope: 0
+          outSlope: 0
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
@@ -60530,7 +60530,7 @@ Transform:
   m_GameObject: {fileID: 1562410340}
   serializedVersion: 2
   m_LocalRotation: {x: -0.70710677, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 2.985, y: 0.132, z: 9.281}
+  m_LocalPosition: {x: 2.896, y: 0.132, z: 9.258}
   m_LocalScale: {x: 0.3593326, y: 0.2542853, z: 0.3593326}
   m_ConstrainProportionsScale: 0
   m_Children: []
