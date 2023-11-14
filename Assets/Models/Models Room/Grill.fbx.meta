@@ -1,9 +1,19 @@
 fileFormatVersion: 2
-guid: 2ed5f4033d224434da16b8ede8e4a452
+guid: 49f653a72d2687348b2184a38bd4a04f
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_Grill
+    second: {fileID: 2100000, guid: 38055ef05fe6b924998ad347aab94192, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_Grill_1
+    second: {fileID: 2100000, guid: 3af3925b40221c34fa087fac89c44c2d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
