@@ -56958,8 +56958,8 @@ HingeJoint:
   m_ExtendedLimits: 0
   m_UseAcceleration: 0
   m_Limits:
-    min: -79.05571
-    max: 78.745316
+    min: -82.31261
+    max: 95.758644
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -75694,6 +75694,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chest
+      objectReference: {fileID: 0}
+    - target: {fileID: 4213329797960674265, guid: 2787bc34c76b89e479c2c0f1b8623065,
+        type: 3}
+      propertyPath: m_Limits.min
+      value: -66.355316
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
