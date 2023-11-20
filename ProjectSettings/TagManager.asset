@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - projectile
+  - Meteor
   layers:
   - Default
   - TransparentFX
@@ -13,8 +15,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Player
+  - DynamicPose
   - BlockingTeleport
   - 
   - 
@@ -25,13 +27,13 @@ TagManager:
   - 
   - 
   - 
+  - Grabbable
+  - Hand
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Teleport Area
+  - Environment
   - 
   - 
   - 
