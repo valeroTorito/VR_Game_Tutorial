@@ -1186,7 +1186,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7390568631870264789}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.000000014901161, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.049, y: -2.694, z: -0.82620275}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1424,7 +1424,7 @@ MonoBehaviour:
   LinkedGrabbables: []
   SocketOrientation: {fileID: 2647629146987599969}
   Tags:
-    Tags: {fileID: 11400000, guid: 0e83bcde818c784468e6c9a69d44702f, type: 2}
+    Tags: {fileID: 11400000, guid: 7df3da9a95c1cb84d86bfdf5a9e91bb6, type: 2}
     _data: 1
 --- !u!114 &6533589003568138922
 MonoBehaviour:

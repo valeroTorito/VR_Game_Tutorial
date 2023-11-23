@@ -336,6 +336,7 @@ Transform:
   m_Children:
   - {fileID: 7338719688627847977}
   - {fileID: 7312479211323629920}
+  - {fileID: 1084811187566467659}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5626823013514142382
@@ -503,10 +504,10 @@ MonoBehaviour:
   SocketedClip: {fileID: 0}
   UnsocketedClip: {fileID: 0}
   LinkedGrabbables: []
-  SocketOrientation: {fileID: 0}
+  SocketOrientation: {fileID: 1084811187566467659}
   Tags:
-    Tags: {fileID: 11400000, guid: 0e83bcde818c784468e6c9a69d44702f, type: 2}
-    _data: 1
+    Tags: {fileID: 11400000, guid: 7df3da9a95c1cb84d86bfdf5a9e91bb6, type: 2}
+    _data: 8
 --- !u!1 &7676625093008309827
 GameObject:
   m_ObjectHideFlags: 0
@@ -614,3 +615,34 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -1272481795433867914, guid: fd6c31421bc33ff43b76de9529623347, type: 3}
+--- !u!1 &8596190756469816170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1084811187566467659}
+  m_Layer: 0
+  m_Name: Orient
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1084811187566467659
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8596190756469816170}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0999889, y: 0.75949085, z: -0.08390065, w: 0.6372885}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6085778320078196352}
+  m_LocalEulerAnglesHint: {x: 0, y: 100, z: -15}
