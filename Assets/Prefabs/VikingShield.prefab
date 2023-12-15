@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8833658621665641073}
   - component: {fileID: 4319244816259227673}
   m_Layer: 0
-  m_Name: GrabPoint
+  m_Name: GrabRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -54,9 +54,9 @@ MonoBehaviour:
   RightAutoPose: 0
   SelectionIndex: 0
   PoseNames:
-  - 'Primary: poseShieldTest'
+  - 'Primary: poseVikingShieldRight'
   PrimaryPose:
-    Pose: {fileID: 11400000, guid: c02ac36038232194d82bbf97c1122aa3, type: 2}
+    Pose: {fileID: 11400000, guid: 775438956efa7374fb78e0ea07858210, type: 2}
     Weight: 1
     Mask: 0
     Type: 0
@@ -351,15 +351,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ebc937e678155e4d86feeb9248cca97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GrabBehaviour: 0
+  GrabBehaviour: 1
   PoseType: 0
   TrackingType: 0
   HoldType: 1
-  GrabControl: 0
+  GrabControl: 1
   OverrideGrabTrigger: 0
   GrabTrigger: 0
   RequireLineOfSight: 1
-  PoseImmediately: 0
+  PoseImmediately: 1
   ParentHandModel: 1
   BreakDistance: 1
   BreakDistanceSource: 0
@@ -369,10 +369,10 @@ MonoBehaviour:
   ReleasedAngularFactor: 1
   GrabIndicator: {fileID: 0}
   ForceGrabIndicator: {fileID: 0}
-  ShowGrabIndicator: 1
-  ShowTriggerGrabIndicator: 1
-  ShowForceGrabIndicator: 1
-  ForceGrabbable: 1
+  ShowGrabIndicator: 0
+  ShowTriggerGrabIndicator: 0
+  ShowForceGrabIndicator: 0
+  ForceGrabbable: 0
   ForcePullOverride: {fileID: 0}
   JointOverride: {fileID: 0}
   OneHandStrength: {fileID: 0}
@@ -383,9 +383,9 @@ MonoBehaviour:
   Rigidbody: {fileID: 0}
   AutoApplyLayer: 1
   RequireOverlapClearance: 0
-  OverlapTimeout: 5
-  FinalJointMaxAngle: 3
-  FinalJointTimeout: 2
+  OverlapTimeout: 0.1
+  FinalJointMaxAngle: 15
+  FinalJointTimeout: 0.25
   CollisionParents: []
   ExtraIgnoreCollisionParents: []
   GrabColliders: []
@@ -397,7 +397,7 @@ MonoBehaviour:
   LinkedGrabbables: []
   CollisionDetection: 2
   PhysicsPoserFallback: 1
-  OverrideMaxDistanceBehaviour: 0
+  OverrideMaxDistanceBehaviour: 1
   MaxDistanceBehaviour: 0
   OneHandJointSettings: {fileID: 0}
   TwoHandJointSettings: {fileID: 0}
@@ -405,7 +405,8 @@ MonoBehaviour:
   LinkStartingSocket: 0
   ShowBoundingBox: 0
   DrawCenterOfMass: 0
-  GrabPoints: []
+  GrabPoints:
+  - {fileID: 225590427853684969}
   Deactivated:
     m_PersistentCalls:
       m_Calls: []

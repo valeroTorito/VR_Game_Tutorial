@@ -352,8 +352,126 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5097255199984355457}
+  - {fileID: 4926467515709953481}
   m_Father: {fileID: 4671161163577315472}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6071350161478018938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4926467515709953481}
+  - component: {fileID: 5033139017172394290}
+  - component: {fileID: 4715345069048154721}
+  m_Layer: 0
+  m_Name: GrabLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4926467515709953481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6071350161478018938}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.71968657, z: -0, w: 0.6942991}
+  m_LocalPosition: {x: 0.0453, y: -0.0817, z: 0.0002}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 77127449763314978}
+  m_LocalEulerAnglesHint: {x: 0, y: 92.057, z: 0}
+--- !u!114 &5033139017172394290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6071350161478018938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96d1b667b6234620a01e126539c3f6d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LeftHandPreview: {fileID: 0}
+  RightHandPreview: {fileID: 0}
+  BodyPreview: {fileID: 0}
+  PreviewLeft: 0
+  PreviewRight: 0
+  LeftAutoPose: 0
+  RightAutoPose: 0
+  SelectionIndex: 0
+  PoseNames:
+  - 'Primary: poseVikingAxeLeftHand'
+  PrimaryPose:
+    Pose: {fileID: 11400000, guid: 1226702c2a126f04f8994e9e4976ac90, type: 2}
+    Weight: 1
+    Mask: 0
+    Type: 0
+    Speed: 16
+    AnimationParameter: None
+    ButtonParameter: 0
+    Button: 0
+    Disabled: 0
+    ThumbType: 0
+    IndexType: 0
+    MiddleType: 0
+    RingType: 0
+    PinkyType: 0
+    ThumbStart: 0.75
+    IndexStart: 1
+    MiddleStart: 0
+    RingStart: 0
+    PinkyStart: 0
+  Blends: []
+  MirrorAxis: 0
+--- !u!114 &4715345069048154721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6071350161478018938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79cd113ec3a24073b5bab8cbfb533d1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PoserIndex: 0
+  IsJointAnchor: 0
+  IsForceGrabbable: 1
+  OneHandOnly: 0
+  AllowedAngleDifference: 360
+  CheckDistance: 0
+  MaxDistance: 0.3
+  LeftHand: 1
+  RightHand: 0
+  Group: -1
+  HandRotationOffset: {x: 0, y: 0, z: 0}
+  HandPositionOffset: {x: 0, y: 0, z: 0}
+  GrabIndicatorPosition: {fileID: 0}
+  VisualGrabPoint: {fileID: 0}
+  HandPoser: {fileID: 0}
+  Grabbable: {fileID: 0}
+  IsLineGrab: 0
+  LineStart: {fileID: 0}
+  LineEnd: {fileID: 0}
+  CanLineFlip: 1
+  LooseDamper: 100
+  LooseAngularDamper: 1
+  LineCanReposition: 1
+  LineInitialCanReposition: 1
+  LineCanRotate: 1
+  LineFreeRotation: 0
+  LineInitialCanRotate: 1
+  Others: []
 --- !u!1 &6808518191432994167
 GameObject:
   m_ObjectHideFlags: 0
@@ -366,7 +484,7 @@ GameObject:
   - component: {fileID: 3452634033333261667}
   - component: {fileID: 7414907596546983921}
   m_Layer: 0
-  m_Name: Grab
+  m_Name: GrabRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -408,9 +526,9 @@ MonoBehaviour:
   RightAutoPose: 0
   SelectionIndex: 0
   PoseNames:
-  - 'Primary: pose'
+  - 'Primary: poseVikingAxeRightHand'
   PrimaryPose:
-    Pose: {fileID: 11400000, guid: bb72164c693085247a487cacb0585c8a, type: 2}
+    Pose: {fileID: 11400000, guid: 1fa26a20b8c1738449fbc64ac908e1c6, type: 2}
     Weight: 1
     Mask: 0
     Type: 0
@@ -450,7 +568,7 @@ MonoBehaviour:
   AllowedAngleDifference: 360
   CheckDistance: 0
   MaxDistance: 0.3
-  LeftHand: 1
+  LeftHand: 0
   RightHand: 1
   Group: -1
   HandRotationOffset: {x: 0, y: 0, z: 0}
@@ -596,28 +714,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ebc937e678155e4d86feeb9248cca97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GrabBehaviour: 2
+  GrabBehaviour: 1
   PoseType: 0
   TrackingType: 0
-  HoldType: 2
-  GrabControl: 0
+  HoldType: 1
+  GrabControl: 1
   OverrideGrabTrigger: 0
   GrabTrigger: 0
   RequireLineOfSight: 1
-  PoseImmediately: 0
-  ParentHandModel: 1
+  PoseImmediately: 1
+  ParentHandModel: 0
   BreakDistance: 1
   BreakDistanceSource: 0
-  Stationary: 0
-  ReleasedAngularConversionFactor: 1
+  Stationary: 1
+  ReleasedAngularConversionFactor: 0
   ReleasedVelocityFactor: 1
   ReleasedAngularFactor: 1
   GrabIndicator: {fileID: 0}
   ForceGrabIndicator: {fileID: 0}
-  ShowGrabIndicator: 1
-  ShowTriggerGrabIndicator: 1
-  ShowForceGrabIndicator: 1
-  ForceGrabbable: 1
+  ShowGrabIndicator: 0
+  ShowTriggerGrabIndicator: 0
+  ShowForceGrabIndicator: 0
+  ForceGrabbable: 0
   ForcePullOverride: {fileID: 0}
   JointOverride: {fileID: 0}
   OneHandStrength: {fileID: 0}
@@ -629,20 +747,20 @@ MonoBehaviour:
   AutoApplyLayer: 1
   RequireOverlapClearance: 0
   OverlapTimeout: 0.1
-  FinalJointMaxAngle: 3
-  FinalJointTimeout: 2
+  FinalJointMaxAngle: 15
+  FinalJointTimeout: 0.25
   CollisionParents: []
   ExtraIgnoreCollisionParents: []
   GrabColliders: []
   ConsiderGrabPointAngle: 1
   UseColliderClosestPoint: 1
   DisableHandCollision: 0
-  AllowMultiplayerSwap: 0
+  AllowMultiplayerSwap: 1
   MasterGrabbable: {fileID: 0}
   LinkedGrabbables: []
   CollisionDetection: 2
   PhysicsPoserFallback: 1
-  OverrideMaxDistanceBehaviour: 0
+  OverrideMaxDistanceBehaviour: 1
   MaxDistanceBehaviour: 0
   OneHandJointSettings: {fileID: 0}
   TwoHandJointSettings: {fileID: 0}
